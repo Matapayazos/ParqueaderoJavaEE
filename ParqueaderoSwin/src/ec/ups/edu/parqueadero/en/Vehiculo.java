@@ -10,5 +10,23 @@ package ec.ups.edu.parqueadero.en;
  * @author matapayazos
  */
 public class Vehiculo {
+    private String Placa;
+
+    public Vehiculo() {
+    }
+
+    public void setPlaca(String Placa) {
+        this.Placa = Placa;
+    }
+
+    public String getPlaca() {
+        return Placa;
+    }
+
+    @Override
+    public String toString() {
+        return "Vehiculo{" + "Placa=" + Placa + '}';
+    }
+    
     
 }

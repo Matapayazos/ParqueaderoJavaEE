@@ -10,5 +10,18 @@ package ec.ups.edu.parqueadero.en;
  * @author matapayazos
  */
 public class Pago {
+    private Double MontoPago;
+
+    public Pago() {
+    }
+
+    public Double getMontoPago() {
+        return MontoPago;
+    }
+
+    public void setMontoPago(Double MontoPago) {
+        this.MontoPago = MontoPago;
+    }
+    
     
 }

@@ -9,12 +9,12 @@ package ec.ups.edu.parqueadero.interfaz;
  *
  * @author matapayazos
  */
-public class Generar_Pago extends javax.swing.JInternalFrame {
+public class Sacar_Vehiculo extends javax.swing.JPanel {
 
     /**
-     * Creates new form Generar_Pago
+     * Creates new form Sacar_Vehiculo
      */
-    public Generar_Pago() {
+    public Sacar_Vehiculo() {
         initComponents();
     }
 
@@ -27,21 +27,21 @@ public class Generar_Pago extends javax.swing.JInternalFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
+        this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 394, Short.MAX_VALUE)
+            .addGap(0, 400, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 274, Short.MAX_VALUE)
+            .addGap(0, 300, Short.MAX_VALUE)
         );
-
-        pack();
     }// </editor-fold>//GEN-END:initComponents
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
     // End of variables declaration//GEN-END:variables
 }
