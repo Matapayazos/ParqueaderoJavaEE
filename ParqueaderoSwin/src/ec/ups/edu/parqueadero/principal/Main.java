@@ -5,6 +5,8 @@
  */
 package ec.ups.edu.parqueadero.principal;
 
+import ec.ups.edu.parqueadero.interfaz.Principal;
+
 /**
  *
  * @author matapayazos
@@ -16,6 +18,9 @@ public class Main {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+          Principal p=new Principal();
+        p.setVisible(true);
     }
     
 }
